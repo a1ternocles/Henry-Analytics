@@ -10,8 +10,8 @@ Nuestro contenido esta basado en distintas etapas:
   * [Recoleccion del Dataset](#recoleccion-del-dataset)
   * [Procesamiento del Dataset](#procesamiento-del-dataset)
   * [Rol](#rol)
-  * [Analisis Exploratorio: Accesibilidad de Internet](#analisis-exploratorio:-accesibilidad-de-internet)
-  * [Analisis Exploratorio: Conectividades de Internet](#analisis-exploratorio:-conectividades-de-internet)
+  * [Analisis Exploratorio:Accesibilidad de Internet](#analisis-exploratorio:accesibilidad-de-internet)
+  * [Analisis Exploratorio:Conectividades de Internet](#analisis-exploratorio:conectividades-de-internet)
   * [Propuestas](#propuestas)
   * [Conclusion](#conclusion)
 
