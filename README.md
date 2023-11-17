@@ -14,13 +14,24 @@ Nuestro contenido esta basado en distintas etapas:
   * [Propuestas](#propuestas)
   * [Conclusion](#conclusion)
 
+Es importante tener en cuenta que para este ejercicio se creo un entorno virtual que nos permite empaquetar todas las librerias y codigos creados en un conjunto de carpetas que
+nos permita la facil replicacion al momento de clonar el repositorio.
+La base de datos que usamos se encuentra [Aqui]{https://datosabiertos.enacom.gob.ar/dashboards/20000/acceso-a-internet/} y basicamente consiste en toda la informacion
+proporcionada por el Gobierno Argentino referente al uso del internet, sus respectivas tecnologias y conectividades. Ademas, se presenta un [Dataset Complementario]{https://datosabiertos.enacom.gob.ar/home}
+que nos ayudara a complementar nuestro analisis en caso de ser necesario. 
+
+
 # Objetivo
-El proyecto busca desarrollar una API con FastAPI para proporcionar consultas detalladas sobre reseñas de videojuegos, incluyendo estadísticas por género, horas jugadas por usuario, recomendaciones de juegos y análisis de sentimientos. También implica explorar manualmente los datos, crear un modelo de recomendación y desplegar la API en un servicio de alojamiento. El objetivo final es presentar un video demostrativo que muestre el funcionamiento de la API y el modelo de aprendizaje automático.
+Se busca desarrollar un analisis exploratorio que nos permita obtener distintos puntos de vistas e ideas generales para un modelo de negocio el cual
+consiste en una empresa de telecomunicaciones extranjeras que desea desarrollar inversion dentro de las distintias provincias argentinas.
+Nuestro enfoque es el conocer los tipos de tecnologias comunmente usados dentro de Argentina que nos permitan una facilidad de acceso a las redes. Las redes a destacar dentro
+de cada provincia son el __Dial Up__ y la __Banda Ancha__.
+En adicion, deseamos saber que herramientas de conexion suelen usarse para apoyar estos tipos de redes. En este tipo de herramientos solemos encontrar: __Fibra Optica__, __Modem__,
+__Wireless__, __ADSL__ y por ultimo __Otros__ (Este ultimo como cualquier alternativa que permita la conectividad a internet).
+Y Por ultimo, tener una idea general del aumento tecnologico en referencia al uso de __Banda Ancha__ por encima del __Dial Up__, esto debido a que el __Dial Up__ s una tecnología de acceso a Internet más antigua y más lenta que utiliza la red telefónica conmutada (RTC). Para conectarse a Internet mediante dial-up, un usuario utiliza un módem y establece una conexión a través de la línea telefónica. La velocidad de conexión suele ser bastante baja en comparación con las tecnologías más modernas, y una desventaja importante es que durante la conexión telefónica no se pueden realizar llamadas.
 
 ## Enlaces:
-* [Deployment](https://andresruiz-deploy.onrender.com/)
-* [Docs & Funciones](https://andresruiz-deploy.onrender.com/docs)
-* [Video]()
+* [URL Dashboard]
 
 # Entorno Virtual
 
