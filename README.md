@@ -10,7 +10,8 @@ Nuestro contenido esta basado en distintas etapas:
   * [Recoleccion del Dataset](#recoleccion-del-dataset)
   * [Procesamiento del Dataset](#procesamiento-del-dataset)
   * [Rol](#rol)
-  * [Analisis Exploratorio](#analisis-exploratorio)
+  * [Analisis Exploratorio: Accesibilidad de Internet](#analisis-exploratorio:-accesibilidad-de-internet)
+  * [Analisis Exploratorio: Conectividades de Internet](#analisis-exploratorio:-conectividades-de-internet)
   * [Propuestas](#propuestas)
   * [Conclusion](#conclusion)
 
@@ -22,15 +23,13 @@ que nos ayudara a complementar nuestro analisis en caso de ser necesario.
 
 
 # Objetivo
-Se busca desarrollar un analisis exploratorio que nos permita obtener distintos puntos de vistas e ideas generales para un modelo de negocio el cual
-consiste en una empresa de telecomunicaciones extranjeras que desea desarrollar inversion dentro de las distintias provincias argentinas.
-Nuestro enfoque es el conocer los tipos de tecnologias comunmente usados dentro de Argentina que nos permitan una facilidad de acceso a las redes. 
+Se busca realizar un análisis exploratorio con el objetivo de obtener diversas perspectivas e ideas fundamentales para un modelo de negocio. Este modelo se centra en una empresa de telecomunicaciones extranjera que planea realizar inversiones en diversas provincias argentinas.
 
-Las redes a destacar dentro
-de cada provincia son el __Dial Up__ y la __Banda Ancha__.
-En adicion, deseamos saber que herramientas de conexion suelen usarse para apoyar estos tipos de redes. En este tipo de herramientos solemos encontrar: __Fibra Optica__, __Modem__,
-__Wireless__, __ADSL__ y por ultimo __Otros__ (Este ultimo como cualquier alternativa que permita la conectividad a internet).
-Y Por ultimo, tener una idea general del aumento tecnologico en referencia al uso de __Banda Ancha__ por encima del __Dial Up__, esto debido a que el __Dial Up__ s una tecnología de acceso a Internet más antigua y más lenta que utiliza la red telefónica conmutada (RTC). Para conectarse a Internet mediante dial-up, un usuario utiliza un módem y establece una conexión a través de la línea telefónica. La velocidad de conexión suele ser bastante baja en comparación con las tecnologías más modernas, y una desventaja importante es que durante la conexión telefónica no se pueden realizar llamadas.
+Nuestro enfoque principal es comprender los tipos de tecnologías comúnmente utilizados en Argentina que facilitarán el acceso a las redes. Las redes de interés en cada provincia son el __Dial Up__ y la __Banda Ancha__.
+
+Además, nos interesa conocer las herramientas de conexión que suelen respaldar estos tipos de redes. Estas herramientas incluyen __Fibra Óptica__, __Módem__, __Wireless__, __ADSL__ y, por último, __Otros__ (considerando cualquier alternativa que permita la conectividad a Internet).
+
+Por último, queremos obtener una visión general del crecimiento tecnológico en relación con el uso de __Banda Ancha__ en comparación con el __Dial Up__. El Dial Up es una tecnología de acceso a Internet más antigua y más lenta que utiliza la red telefónica conmutada (RTC). Al conectarse a Internet mediante dial-up, el usuario utiliza un módem y establece una conexión a través de la línea telefónica. La velocidad de conexión suele ser considerablemente baja en comparación con tecnologías más modernas, y una desventaja significativa es que durante la conexión telefónica no se pueden realizar llamadas.
 
 ## Enlaces:
 * [URL Dashboard]
@@ -46,107 +45,74 @@ Sirve para:
 * __Organización__: Ayuda a mantener orden en el desarrollo al separar claramente las dependencias y versiones utilizadas en un proyecto específico.
 
 __Pasos:__
- 1. Crear carpeta de trabajo (Recomendacion: Crear dentro una carpeta llamada __FastApi__ donde se alojaran los archivos)
+ 1. Crear carpeta de trabajo (Recomendacion: Crear dentro una carpeta llamada __Py Codes__ donde se alojaran los archivos)
  2. Abrir el Terminal o CMD
- 3. Buscar la carpeta en cuestion usando el comando cd "carpeta_de_trabajo"/FastApi
- 4. python3 -m venv fastapi-env
- 5. fastapi-env\Scripts\activate.bat
- 6. pip install fastapi
- 7. pip install uvicorn
+ 3. Buscar la carpeta en cuestion usando el comando cd "carpeta_de_trabajo"/Py Codes
+ 4. python3 -m venv virtual-env
+ 5. virtual-env\Scripts\activate.bat
 
 De esta manera hemos creado nuestro entorno virtual dentro de la carpeta que hayamos creado.
 
-# Renderizado y Despliegue
-
-Una vez creado nuestra carpeta que contenga todos los archivos con los que trabajaremos, podemos considerar el crear una pagina web y al mismo tiempo desplegarla con el fin de que nuestra API pueda consumirse sin mayor incoveniente.
-
-__Pasos(En la terminal o Git Bash):__
-
-1. Actualizar nuestro entorno: python -m pip install --upgrade pip
-2. pip freeze > requirements.txt (Se recomienda copiar el requirement.txt de este repositorio para evitar errores)
-3. Crear un repositorio Git Hub: [Como crear un repositorio](https://docs.github.com/es/get-started/quickstart/create-a-repo)
-4. Crear una cuenta en Render.com
-5. En el apartado __Dashboard__, click en __Web Service__
-6. En la seccion: __Public Git Repository__, pegar url del repositorio del paso 3.
-7. Name: "Nombre de tu archivo"; Branch: "main"; Runtime: Python 3; Start Command : $ uvicorn main:app --host 0.0.0.0 --port 10000
-8. Click: Create Web service
-
-De esta manera concluimos la creacion de tu pagina web. En la parte superior encontraras el link de la pagina. tener en cuenta que debido a que no se ha creado nada aun, estara vacio.
-
 # Recoleccion del Dataset
 
-Con el fin de completar las tareas solicitadas, se hizo entrega de un [Dataset](https://drive.google.com/drive/folders/1HqBG2-sUkz_R3h1dZU5F2uAzpRn7BSpj). Es importante tener en cuenta que la data entregada se encuentra en formato .json.gz. Por lo tanto, una vez descargado el dataset y guardado en nuestra carpeta creada para tal fin, es necesario descomprimir dichos archivos y montarlos en un tipo de formato amigable para poder trabajar.
+Para obtener los datos necesarios para la elaboracion del ejercicio, nos dirigimos al [Dataset Principal](https://datosabiertos.enacom.gob.ar/dashboards/20000/acceso-a-internet/)
+y buscamos aquellas tablas que nos interesan. En este caso, aquellos datasets de interes son:
+* Accesos a banda ancha y banda angosta por provincia
+* Acceso a Internet fijo por tecnología y provincia
+* Total nacional de accesos a Internet fijo por banda ancha y banda angosta
 
-__Recomendaciones__:
-
-1. Crear una carpeta llamada "data" dentro de nuestro folder principal para tener toda la informacion en un lugar
-2. Utilizar pandas para crear dataframes. Esto nos permite ver los archivos como tablas y poder trabajar con dicha libreria
+Como datos complementarios, nos dirigimos al [Dataset Complementario](https://datosabiertos.enacom.gob.ar/dashboards/19657/equipos-de-comunicacion-autorizados/)
+y descargamos directamente la tabla de nuestro interes:
+* https://datosabiertos.enacom.gob.ar/dashboards/19657/equipos-de-comunicacion-autorizados/
 
 # Procesamiento del Dataset
 
-Se creo un Notebook llamado __etl,ipynb__ con el fin de convertir nuestros archivos .json.gz a pandas.Dataframe. Ademas, se crearon multiples funciones que nos ayudaron al ordenamiento, tranformacion y visualizacion de los distintos formatos encontrados en los archivos originales. Una vez los datos fueron transformados, estos fueron cargados como archivos tipo .parquet con el fin de ahorrar todo el espacio posible.
+Se creo un Notebook llamado __etl.ipynb__ con el fin de convertir nuestros archivos __.csv__ a __pandas.Dataframe__. Ademas, se crearon multiples funciones que nos ayudaron al ordenamiento, tranformacion y visualizacion de los distintos formatos encontrados en los archivos originales. Una vez los datos fueron transformados, estos fueron cargados como archivos tipo __.csv__ con el fin de actualizar la data anteriormente recolectada.
 
 __Funciones:__
-1. def json_double_a_df(json_file)
-2. def json_simple_a_df(json_file)
-3. def diccionario_tipos_datos(dataframe_file)
-4. def cambio_a_float(dato)
-5. def cambio_a_datetime(dato)
-6. def abrir_lista(dataframe_file,nombre_col)
+1. def diccionario_tipos_datos(dataframe_file)
+2. def cambio_a_float(dato)
+3. def cambio_a_datetime(dato)
 
 ## Nota: 
 El orden de este proceso fue creado teniendo en cuenta el patron : Modelo - Vista - Controlador (MVC). Esto nos permite un mayor ordenamiento y posicion de todos los elementos que se encuentran en el codigo.
 El patron creado es llamado: Libreria - Acciones - Vistas (LAV)
 
-# Analisis Exploratorio
+# Rol
 
-Se creo un Notebook llamado __eda.ipynb__ con el fin de explorar nuestros datos y tener una vision de que esta pasando con estos. Es importante resaltar que se busca informacion util como: Outliers, Quartiles, Moda, Media, Mediana, etc. Ademas, por cada analisis o grafica creada dentro del archivo, hay pequenas observaciones al final de estos con la intencion de dar una perspectiva de los datos.
+Nuestro rol principal dentro de este trabajo consiste en colocarnos en los zapatos de un __Analista__ contratado por una empresa extranjera de telecomunicaciones el cual desea observar como se mueve a nivel tecnologico las distintas provincias de Argentina.
+Dicha empresa desea saber si hay un panorama favorable o desfavorable al momento de competir con otras empresas ya instanciadas desde hace años. Desea conocer
+los puntos de accesos y las tecnologias de las provincias para estar al tanto sobre donde comenzar con el negocio y si puede hacer un aporte significativo que resulte atractivo para las distintias comunidades: Empresariales de todos los niveles, negocios y personas de distintos niveles socioeconomicos.
 
-__Funciones:__
-1. def df_bool(dataframe_file, col, year, bool)
-2. def analisis_sentimiento(data)
+Dicha empresa extranjera desea aportar tecnologicamente a Argentina trayendo mejores herramientas y metodologias de trabajo para aumentar, en la medida de lo posible, la conectividad actual. Es decir, si una provincia maneja un estandar de 30 Mbps,
+la iniciativa seria aumentar a 100 Mbps como minimo. Asi mismo, si una provincia tiene una baja cantidad de recursos en lo que respecta a la __Banda Ancha__, la iniciativa seria invertir en infraestructura que permita la conexion a mas hogares o personas del comun.
+Y por ultimo, si un negocio (de cualquier tipo: Empresa o negocio de distintos niveles) cuenta con una infraestructura antigua, la iniciativa es mejorar dicha infraestructura para que sus servicios de conectividad aumenten de manera exponencial.
 
-## Nota: 
-El orden de este proceso fue creado teniendo en cuenta el patron : Modelo - Vista - Controlador (MVC). Esto nos permite un mayor ordenamiento y posicion de todos los elementos que se encuentran en el codigo.
-El patron creado es llamado: Libreria - Acciones - Vistas (LAV)
+# Analisis Exploratorio: Accesibilidad de Internet
 
-# Funciones propuestas y API
-
-Se creo un Notebook llamado __api.ipynb__ con el fin de crear todas aquellas funciones propuestas dentro del repositorio [PI_ML_OPS](https://github.com/soyHenry/PI_ML_OPS/tree/PT). Ademas, tambien se crearon datasets que pueden ser utiles al momento de llamar a dichas funciones, estos datasets nos permiten ahorrar recursos de la maquina. Se da una introduccion de lo que se plenea usar para poder consumir nuestra API y se generan pruebas para verificar la funcionalidad.
-
-__Funciones:__
-1. def PlayTimeGenre(genero: str)
-2. def UserForGenre(genero : str)
-3. def UsersRecommend(anio : int)
-4. def UsersNotRecommend(anio : int)
-5. def sentiment_analysis(anio : int)
+Se creo un Notebook llamado __eda_accesibilidad_tech.ipynb__ con el fin de explorar nuestros datos y tener una vision de que esta pasando con estos. Es importante resaltar que se busca informacion util como: Outliers, Quartiles, Moda, Media, Mediana, etc. Ademas, por cada analisis o grafica creada dentro del archivo, hay pequenas observaciones al final de estos con la intencion de dar una perspectiva de la informacion trabajada.
 
 ## Nota: 
 El orden de este proceso fue creado teniendo en cuenta el patron : Modelo - Vista - Controlador (MVC). Esto nos permite un mayor ordenamiento y posicion de todos los elementos que se encuentran en el codigo.
 El patron creado es llamado: Libreria - Acciones - Vistas (LAV)
 
-# Modelo de machine Learning
+# Analisis Exploratorio: Conectividades de Internet
 
-Se creo un notebook llamado __ml_model.ipynb__ en el cual nuestra intencion principal es la de crear un modelo de machine learning que nos permita desarrollar una recomendacion item-item teniendo como base el codigo ID de algun juego que se encuentre en el dataset. Esto es, permite sugerir elementos con generos similares a aquellos usuarios que han interactuado con un juego en especifico. Dentro del modelo se usa la __Similitud del coseno__ con el fin de calcular el parecido entre distinto datos y asi obtener el Output que estamos buscando. Es de resaltar que este modulo hace los calculos entre vectores, por tanto vectorizamos nuestro datos usando el modulo __TfidfVectorizer__.
-
-__Funciones:__
-1. def recomendacion_juego(id_producto)
+Se creo un Notebook llamado __eda_conectividades_tech.ipynb__ con el fin de explorar nuestros datos y tener una vision de que esta pasando con estos. Es importante resaltar que se busca informacion util como: Outliers, Quartiles, Moda, Media, Mediana, etc. Ademas, por cada analisis o grafica creada dentro del archivo, hay pequenas observaciones al final de estos con la intencion de dar una perspectiva de la informacion trabajada.
 
 ## Nota: 
 El orden de este proceso fue creado teniendo en cuenta el patron : Modelo - Vista - Controlador (MVC). Esto nos permite un mayor ordenamiento y posicion de todos los elementos que se encuentran en el codigo.
 El patron creado es llamado: Libreria - Acciones - Vistas (LAV)
 
-# Archivo Main
+# Propuestas
 
-Se creo un archivo llamado main.py. En este documento se trajeron las librerias necesarias, se creo un pequeno codigo PHP y ademas se trajeron todas las funciones creadas con anterioridad. Nuestra pagina web puede leer este documento y traer todo el trabajo realizado previamente y asi ser consumido por la API para darnos un resultado.
 
-__Funciones:__
-1. def PlayTimeGenre(genero: str)
-2. def UserForGenre(genero : str)
-3. def UsersRecommend(anio : int)
-4. def UsersNotRecommend(anio : int)
-5. def sentiment_analysis(anio : int)
-6. def recomendacion_juego(id_producto)
+
+
+## Nota: 
+El orden de este proceso fue creado teniendo en cuenta el patron : Modelo - Vista - Controlador (MVC). Esto nos permite un mayor ordenamiento y posicion de todos los elementos que se encuentran en el codigo.
+El patron creado es llamado: Libreria - Acciones - Vistas (LAV)
+
 
 # Conclusion
 
