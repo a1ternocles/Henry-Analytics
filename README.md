@@ -24,7 +24,9 @@ que nos ayudara a complementar nuestro analisis en caso de ser necesario.
 # Objetivo
 Se busca desarrollar un analisis exploratorio que nos permita obtener distintos puntos de vistas e ideas generales para un modelo de negocio el cual
 consiste en una empresa de telecomunicaciones extranjeras que desea desarrollar inversion dentro de las distintias provincias argentinas.
-Nuestro enfoque es el conocer los tipos de tecnologias comunmente usados dentro de Argentina que nos permitan una facilidad de acceso a las redes. Las redes a destacar dentro
+Nuestro enfoque es el conocer los tipos de tecnologias comunmente usados dentro de Argentina que nos permitan una facilidad de acceso a las redes. 
+
+Las redes a destacar dentro
 de cada provincia son el __Dial Up__ y la __Banda Ancha__.
 En adicion, deseamos saber que herramientas de conexion suelen usarse para apoyar estos tipos de redes. En este tipo de herramientos solemos encontrar: __Fibra Optica__, __Modem__,
 __Wireless__, __ADSL__ y por ultimo __Otros__ (Este ultimo como cualquier alternativa que permita la conectividad a internet).
