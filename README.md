@@ -88,7 +88,7 @@ Dicha empresa extranjera desea aportar tecnologicamente a Argentina trayendo mej
 la iniciativa seria aumentar a 100 Mbps como minimo. Asi mismo, si una provincia tiene una baja cantidad de recursos en lo que respecta a la __Banda Ancha__, la iniciativa seria invertir en infraestructura que permita la conexion a mas hogares o personas del comun.
 Y por ultimo, si un negocio (de cualquier tipo: Empresa o negocio de distintos niveles) cuenta con una infraestructura antigua, la iniciativa es mejorar dicha infraestructura para que sus servicios de conectividad aumenten de manera exponencial.
 
-# Analisis Exploratorio: Accesibilidad de Internet
+# EDA Accesibilidad de Internet
 
 Se creo un Notebook llamado __eda_accesibilidad_tech.ipynb__ con el fin de explorar nuestros datos y tener una vision de que esta pasando con estos. Es importante resaltar que se busca informacion util como: Outliers, Quartiles, Moda, Media, Mediana, etc. Ademas, por cada analisis o grafica creada dentro del archivo, hay pequenas observaciones al final de estos con la intencion de dar una perspectiva de la informacion trabajada.
 
@@ -96,7 +96,7 @@ Se creo un Notebook llamado __eda_accesibilidad_tech.ipynb__ con el fin de explo
 El orden de este proceso fue creado teniendo en cuenta el patron : Modelo - Vista - Controlador (MVC). Esto nos permite un mayor ordenamiento y posicion de todos los elementos que se encuentran en el codigo.
 El patron creado es llamado: Libreria - Acciones - Vistas (LAV)
 
-# Analisis Exploratorio: Conectividades de Internet
+# EDA Conectividades de Internet
 
 Se creo un Notebook llamado __eda_conectividades_tech.ipynb__ con el fin de explorar nuestros datos y tener una vision de que esta pasando con estos. Es importante resaltar que se busca informacion util como: Outliers, Quartiles, Moda, Media, Mediana, etc. Ademas, por cada analisis o grafica creada dentro del archivo, hay pequenas observaciones al final de estos con la intencion de dar una perspectiva de la informacion trabajada.
 
