@@ -1,7 +1,7 @@
 ## Proyecto de Analisis
 # Introduccion del Contenido
 
-En este repositorio buscamos analizar una serie de base de datos presentado que nos permitan obtener Insights importantes en relacion al modelo de negocio creado.
+En este repositorio buscamos analizar una serie de base de datos dada que nos permitan obtener Insights importantes en relacion al modelo de negocio creado.
 Ademas, se quiere mostrar adecuadamente el proceso realizado en pro de la replicacion del proyecto y una vista general de los distintos codigos creados para dicho fin.
 Nuestro contenido esta basado en distintas etapas:
 
