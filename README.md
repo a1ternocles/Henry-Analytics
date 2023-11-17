@@ -15,11 +15,11 @@ Nuestro contenido esta basado en distintas etapas:
   * [Propuestas](#propuestas)
   * [Conclusion](#conclusion)
 
-Es importante tener en cuenta que para este ejercicio se creo un entorno virtual que nos permite empaquetar todas las librerias y codigos creados en un conjunto de carpetas que
+Es importante tener en cuenta que para este ejercicio se creo un entorno virtual que nos ayudara a empaquetar todas las librerias y codigos creados en un conjunto de carpetas que
 nos permita la facil replicacion al momento de clonar el repositorio.
 La base de datos que usamos se encuentra [Aqui](https://datosabiertos.enacom.gob.ar/dashboards/20000/acceso-a-internet/) y basicamente consiste en toda la informacion
 proporcionada por el Gobierno Argentino referente al uso del internet, sus respectivas tecnologias y conectividades. Ademas, se presenta un [Dataset Complementario](https://datosabiertos.enacom.gob.ar/home)
-que nos ayudara a complementar nuestro analisis en caso de ser necesario. 
+que nos ayudara con nuestro analisis en caso de ser necesario. 
 
 
 # Objetivo
@@ -92,20 +92,16 @@ Y por ultimo, si un negocio (de cualquier tipo: Empresa o negocio de distintos n
 
 Se creo un Notebook llamado __eda_accesibilidad_tech.ipynb__ con el fin de explorar nuestros datos y tener una vision de que esta pasando con estos. Es importante resaltar que se busca informacion util como: Outliers, Quartiles, Moda, Media, Mediana, etc. Ademas, por cada analisis o grafica creada dentro del archivo, hay pequenas observaciones al final de estos con la intencion de dar una perspectiva de la informacion trabajada.
 
-## Nota: 
-El orden de este proceso fue creado teniendo en cuenta el patron : Modelo - Vista - Controlador (MVC). Esto nos permite un mayor ordenamiento y posicion de todos los elementos que se encuentran en el codigo.
-El patron creado es llamado: Libreria - Acciones - Vistas (LAV)
+## servaciones
 
 # EDA Conectividades de Internet
 
 Se creo un Notebook llamado __eda_conectividades_tech.ipynb__ con el fin de explorar nuestros datos y tener una vision de que esta pasando con estos. Es importante resaltar que se busca informacion util como: Outliers, Quartiles, Moda, Media, Mediana, etc. Ademas, por cada analisis o grafica creada dentro del archivo, hay pequenas observaciones al final de estos con la intencion de dar una perspectiva de la informacion trabajada.
 
-## Nota: 
-El orden de este proceso fue creado teniendo en cuenta el patron : Modelo - Vista - Controlador (MVC). Esto nos permite un mayor ordenamiento y posicion de todos los elementos que se encuentran en el codigo.
-El patron creado es llamado: Libreria - Acciones - Vistas (LAV)
+## Observaciones: 
 
 # Propuestas
-
+Aca va la propuesta
 
 
 
@@ -116,7 +112,7 @@ El patron creado es llamado: Libreria - Acciones - Vistas (LAV)
 
 # Conclusion
 
-Podemos decir que este MVP nos permitio poner en practica todo lo aprendido durante el curso de Henry. Pudimos crear un proceso de ETL en el dataset provisto, un analisis exploratorio que nos da importantes insights sobre el negocio, funciones que nos permiten obtener datos que nos interesan, un modelo de machine learning que nos da recomendaciones teniendo en cuenta el genero de un juego en especifico y el deployment de nuestra pagina web que permite a cualquier usuario hacer uso de todo aquello por lo que hemos trabajado.
+Aca va la conclusion
 
 
 
