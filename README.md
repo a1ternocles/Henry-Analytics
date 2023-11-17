@@ -16,8 +16,8 @@ Nuestro contenido esta basado en distintas etapas:
 
 Es importante tener en cuenta que para este ejercicio se creo un entorno virtual que nos permite empaquetar todas las librerias y codigos creados en un conjunto de carpetas que
 nos permita la facil replicacion al momento de clonar el repositorio.
-La base de datos que usamos se encuentra [Aqui]{https://datosabiertos.enacom.gob.ar/dashboards/20000/acceso-a-internet/} y basicamente consiste en toda la informacion
-proporcionada por el Gobierno Argentino referente al uso del internet, sus respectivas tecnologias y conectividades. Ademas, se presenta un [Dataset Complementario]{https://datosabiertos.enacom.gob.ar/home}
+La base de datos que usamos se encuentra [Aqui](https://datosabiertos.enacom.gob.ar/dashboards/20000/acceso-a-internet/) y basicamente consiste en toda la informacion
+proporcionada por el Gobierno Argentino referente al uso del internet, sus respectivas tecnologias y conectividades. Ademas, se presenta un [Dataset Complementario](https://datosabiertos.enacom.gob.ar/home)
 que nos ayudara a complementar nuestro analisis en caso de ser necesario. 
 
 
