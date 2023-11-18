@@ -12,7 +12,6 @@ Nuestro contenido esta basado en distintas etapas:
   * [Rol](#rol)
   * [EDA Accesibilidad de Internet](#eda-accesibilidad-de-internet)
   * [EDA Conectividades de Internet](#eda-conectividades-de-internet)
-  * [Propuestas](#propuestas)
   * [Conclusion](#conclusion)
 
 Es importante tener en cuenta que para este ejercicio se creo un entorno virtual que nos ayudara a empaquetar todas las librerias y codigos creados en un conjunto de carpetas que
@@ -109,14 +108,9 @@ Se creo un Notebook llamado __eda_conectividades_tech.ipynb__ con el fin de expl
 * La distribucion de Banda Ancha vs Dial Up por provincia es favorable para lugares como Tucuman, Santa Fe, Entre Rios, etc. Ya que estas provincias destacan por tener un 85% o mas en conexiones de Banda Ancha. Por lo tanto, si deseamos enfocarnos para el modelo de negocio proyectado, estos lugares serian los mas acertados. Un ejemplo particular seria tomar la provincia de Santa Fe, aca logramos encontrar un total de 995 puntos de accesos de los cuales 741 son __Banda Ancha__ y 254 son __Dial Up__. Tambien es una de las provincias con mejores herramientas de uso como el __Cable Modem__ y __Fibra Optica__ permitiendo centenares de Mbps de transferencia por servicio de internet. A estos factores, podemos facilmente concluir que: "Si deseamos ofrecer un servicio de internet con una media de 300 Mbps, sera sencillo.". Obviamante podemos buscar provincias que se encuentren mas equilibradas y nos permitan una ventaja competitiva en el mercado, segun estadisticas del ultimo trimestre del 2022 hay provincias con una media de menos de 10 Mbps de servicio.
 * Cabe destacar que para datos de este ultimo año, en tan solo 5 provincias se ha solicitado el servicio de homologacion de equipo para empresas y negocios de distintos niveles economicos. Cabe destacar la provincia con mas homologaciones es Mendoza y la que menos tiene es Santa Fe. Por tanto esta es una area de oportunidad para ofrecer servicios de mejores a la infraestructura de conectividad.
 
-# Propuestas
-Aca va la propuesta
-
-
-
 # Conclusion
 
-Aca va la conclusion
-
+Es oportuno concluir que este estudio realizado tiene dos objetivos ultimos. Resolver el ejercicio sugerido por parte de Soy Henry y mostrar las bondades que nos puede traer un analisis a profundidad y un buen uso de las herramientas para poder obtener Insights que nos permitan llegar a una idea y por ultimo una accion. Estas decisiones no son perfectas pero se intenta lo mas posible seguir las tendencias del mercado y poder trabajar en la mejor solucion posible.
+Ademas, este repositorio es una excelente herramienta que puede funcionar como una guia para los primeros pasos dentro del mundo del Data Analisis.
 
 
