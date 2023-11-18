@@ -92,8 +92,12 @@ Y por ultimo, si un negocio (de cualquier tipo: Empresa o negocio de distintos n
 
 Se creo un Notebook llamado __eda_accesibilidad_tech.ipynb__ con el fin de explorar nuestros datos y tener una vision de que esta pasando con estos. Es importante resaltar que se busca informacion util como: Outliers, Quartiles, Moda, Media, Mediana, etc. Ademas, por cada analisis o grafica creada dentro del archivo, hay pequenas observaciones al final de estos con la intencion de dar una perspectiva de la informacion trabajada.
 
-## servaciones
+## Observaciones:
 
+* La accesbilidad de internet, por cada 100 habitantes y hogares en toda Argentina aumento gradualmente desde el 2014 hasta el 2022. Esto es, por parte de los hogares el acceso a internet aumento en un 51.41%; Mientras, por parte de los habitantes el acceso al servicio de internet tuvo un aumento significativo del 55.45%. Esto nos da una perspectiva de que tan importante se esta volviendo el uso del internet dentro del pais, cada vez mas personas se encuentran interesadas en conectarse.
+* Hubo un aumento significativo para el 2020 y 2021 en la adquisicion del servicio de internet. Tenemos un estimado de 1.3 millones de hogares y 3.62 millones de personas individuales que compraron internet entre estos años a causa de la cuarentena por el Covid-19. Lo mas interesante es que años despues este numero no se redujo, al contrario, siguio aumentando.
+* Para el ultimo trimestre del año 2022, varias provincias terminaron con casi 1000 puntos de accesos en toda la region. Esto significa que entre Dial up y Banda ancha, es mucho mas facil crear una infraestructura para poder cubrir la demanda al momento de ofrecer internet. Ademas, al mismo tiempo que provincias como Chubut, Mendoza,Santa Fe, etc, hacen lo posible para aumentar la infraestructura de Banda Ancha, tambien disminuyen la de Dial Up. Teniendo en cuenta esto y lo que significa el Dial Up , las provincias Argentinas buscan actualizarse tecnologicamente.
+* A continuación del punto anterior, es relevante resaltar los avances significativos llevados a cabo en la provincia de Formosa entre 2013 y 2015. Durante este período, se implementó un proyecto de actualización de puntos de acceso que resultó en una notable disminución del 89.30% en el uso de Dial Up, acompañado por un incremento del 12.86% en la adopción de Banda Ancha. Estos resultados consolidaron a Formosa como una de las provincias con tecnología de conexión más avanzada. Es crucial señalar que en Argentina, la tecnología Dial Up sigue siendo predominante, lo cual puede interpretarse de diversas maneras. Esto puede deberse a la presencia de numerosas zonas rurales o de difícil acceso. Además, desde la implementación del Dial Up en 1995, el país ha experimentado una evolución gradual pero constante en términos de actualización tecnológica. Por lo tanto, existe una oportunidad significativa para ofrecer servicios que homologuen y optimicen la infraestructura de conectividad, considerando la tendencia actual y las necesidades emergentes.
 # EDA Conectividades de Internet
 
 Se creo un Notebook llamado __eda_conectividades_tech.ipynb__ con el fin de explorar nuestros datos y tener una vision de que esta pasando con estos. Es importante resaltar que se busca informacion util como: Outliers, Quartiles, Moda, Media, Mediana, etc. Ademas, por cada analisis o grafica creada dentro del archivo, hay pequenas observaciones al final de estos con la intencion de dar una perspectiva de la informacion trabajada.
@@ -103,11 +107,6 @@ Se creo un Notebook llamado __eda_conectividades_tech.ipynb__ con el fin de expl
 # Propuestas
 Aca va la propuesta
 
-
-
-## Nota: 
-El orden de este proceso fue creado teniendo en cuenta el patron : Modelo - Vista - Controlador (MVC). Esto nos permite un mayor ordenamiento y posicion de todos los elementos que se encuentran en el codigo.
-El patron creado es llamado: Libreria - Acciones - Vistas (LAV)
 
 
 # Conclusion
