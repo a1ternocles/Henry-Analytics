@@ -31,7 +31,7 @@ Además, nos interesa conocer las herramientas de conexión que suelen respaldar
 Por último, queremos obtener una visión general del crecimiento tecnológico en relación con el uso de __Banda Ancha__ en comparación con el __Dial Up__. El Dial Up es una tecnología de acceso a Internet más antigua y más lenta que utiliza la red telefónica conmutada (RTC). Al conectarse a Internet mediante dial-up, el usuario utiliza un módem y establece una conexión a través de la línea telefónica. La velocidad de conexión suele ser considerablemente baja en comparación con tecnologías más modernas, y una desventaja significativa es que durante la conexión telefónica no se pueden realizar llamadas.
 
 ## Enlaces:
-* [URL Dashboard]
+* [Dashboard](https://app.powerbi.com/view?r=eyJrIjoiNmQ2ZWVlZjktYzM4Zi00MGI0LThjZDAtYTllOGQ1OGI2Nzk1IiwidCI6IjU3N2ZjMWQ4LTA5MjItNDU4ZS04N2JmLWVjNGY0NTVlYjYwMCIsImMiOjR9)
 
 # Entorno Virtual
 
